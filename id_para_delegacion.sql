@@ -1,0 +1,1 @@
+select distinct nom_mun, mun as Identificador from proyecto.poblacion;

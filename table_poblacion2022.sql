@@ -1,0 +1,1 @@
+SELECT * FROM proyecto.poblacion2022;

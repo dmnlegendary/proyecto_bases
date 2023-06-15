@@ -1,0 +1,25 @@
+No. ,Nombre de la base de datos,Nombre de la columna,Etiqueta de la columna,Descripción,Tipo de dato,Rango o valores que permite el campo,Registro de campos vacíos ,Observaciones
+1,Incidentes Viales Reportados por el C5,folio,Folio,"Código único alfa numérico que se la asigna a cada uno de los incidentes que son generados (en C5 y los C2), está compuesto por dos iniciales del Centro que recibió la emergencia, fecha en formato AA/MM/DD y número consecutivo de ingreso, ejemplo: AO/181201/10801",Alfanumérico,1737446 categorías,,
+2,Incidentes Viales Reportados por el C6,fecha_creación,Fecha de creación,Fecha de apertura del folio del evento,Fecha,"(2013-12-31, 2022-07-31)",,
+3,Incidentes Viales Reportados por el C7,hora_creación,Hora de creación,Hora de apertura del folio del evento,Hora,7 categorías,,
+4,Incidentes Viales Reportados por el C8,dia_semana,Día de la semana,Día de apertura del folio,Alfanumérico,,,
+5,Incidentes Viales Reportados por el C9,fecha_cierre,Fecha de cierre,Fecha de cierre del folio del evento,Fecha,"(2014-01-01, 2022-07-31)",,
+6,Incidentes Viales Reportados por el C10,hora_cierre,Hora de cierre,Hora de cierre del folio del evento,Hora,,,
+7,Incidentes Viales Reportados por el C11,tipo_incidente_c4,Tipo de incidente,Tipo de incidente,Alfanumérico,7 categorías,,
+8,Incidentes Viales Reportados por el C12,incidente_c4,Incidente,Incidente específico,Alfanumérico,17 categorías,,
+9,Incidentes Viales Reportados por el C13,delegacion_inicio,Alcaldía de inicio,Alcaldía donde inicialmente se reportó el incidente,Alfanumérico,17 categorías,,
+10,Incidentes Viales Reportados por el C14,latitud,Latitud,Latitud,Geográfico: latitud,"(19.09402002, 19.6322009)",,
+11,Incidentes Viales Reportados por el C15,longitud,Longitud,Longitud,Geográfico: longitud,"(-99.37056146, -98.92945008)",,
+12,Incidentes Viales Reportados por el C16,codigo_cierre,Código de cierre,Código que fue asignado al incidente en el cierre,Alfanumérico,5 categorías,,
+13,Incidentes Viales Reportados por el C17,clas_con_f_alarma,Clasificación,Clasificación del incidente,Alfanumérico,"- A (Afirmativo): Una unidad de atención a emergencias confirmó la emergencia reportada
+
+- I (Informativo): Solicitud de información
+
+- N (Negativo): Una unidad de atención a emergencias fue despachada, llegó al lugar de los hechos, pero en el sitio del evento nadie confirmo la emergencia ni fue solicitado el apoyo de la unidad
+
+- D (Duplicado): El incidente reportado se registró en dos o más ocasiones procediendo a mantener un solo reporte como el original.
+
+- F (Falso):  El incidente reportado inicialmente fue considerado como falso en el lugar de los hechos.
+",,
+14,Incidentes Viales Reportados por el C18,tipo_entrada,Medio de recepción,Medio por el cual se dio aviso del incidente,Alfanumérico,10 categorías,,
+15,Incidentes Viales Reportados por el C19,delegacion_cierre,Alcaldía de cierre,Alcaldía donde cierra el folio del incidente,Alfanumérico,17 categorías,,
